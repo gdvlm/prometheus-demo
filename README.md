@@ -7,7 +7,7 @@ The docker compose file includes the following services:
 * **prometheus** - scrapes data using the config and allows querying via the dashboard
 * **alert manager** - allows for granular control over prometheus alerts
 * **cadvisor** - monitors and presents resource usage of running containers
-* **redis** - example service to collects from
+* **redis** - example service to collect data from
 * **grafana** - ingests metrics from prometheus and allows for powerful visualization capabilities
   * Prometheus will be need to be added as a data source using [this guide](https://prometheus.io/docs/tutorials/visualizing_metrics_using_grafana/)
 
